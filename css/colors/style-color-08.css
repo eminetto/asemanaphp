@@ -1,0 +1,20 @@
+/* Color 08 ==================================== */
+
+	body { 
+		background: #feda85 url(../../images/background_08.jpg) fixed center center;	
+		background-size: 100% 100%; 
+	}
+
+	a.btn, a.btn:visited, .form-row input.btn { 
+		border: solid 1px #c9606b; 
+		background-color: #e89777; 
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#e89777), to(#c9606b));
+ 		background-image: -webkit-linear-gradient(top, #e89777, #c9606b);
+ 		background-image: -moz-linear-gradient(top, #e89777, #c9606b);
+ 		background-image: -ms-linear-gradient(top, #e89777, #c9606b);
+ 		background-image: -o-linear-gradient(top, #e89777, #c9606b); 
+	}
+	
+	a.btn:hover, .form-row input.btn:hover, .form-row input.btn:focus {
+		background:#c9606b;	
+	} 

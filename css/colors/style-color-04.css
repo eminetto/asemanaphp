@@ -1,0 +1,20 @@
+/* Color 04 ==================================== */
+
+	body { 
+		background: #657e85 url(../../images/background_04.jpg) fixed center center;	
+		background-size: 100% 100%; 
+	}
+
+	a.btn, a.btn:visited, .form-row input.btn { 
+		border: solid 1px #657e85; 
+		background-color: #a7c6cd; 
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#a7c6cd), to(#657e85));
+ 		background-image: -webkit-linear-gradient(top, #a7c6cd, #657e85);
+ 		background-image: -moz-linear-gradient(top, #a7c6cd, #657e85);
+ 		background-image: -ms-linear-gradient(top, #a7c6cd, #657e85);
+ 		background-image: -o-linear-gradient(top, #a7c6cd, #657e85); 
+	}
+	
+	a.btn:hover, .form-row input.btn:hover, .form-row input.btn:focus {
+		background:#657e85;	
+	} 
