@@ -41,11 +41,7 @@ License: GNU/GPL Version 2 or later. http://www.gnu.org/licenses/gpl.html
 		height:100%;
 	}
 	
-<<<<<<< HEAD
 /* Typography ==================================== */ 
-=======
-/* Typography ==================================== */
->>>>>>> f0e61b6c3483785f0ae619e9e760ce5f92a9b80a
 	
 	h1, h2, h3, h4, h5, h6 {
 		margin:0 0 1em;
@@ -66,7 +62,6 @@ License: GNU/GPL Version 2 or later. http://www.gnu.org/licenses/gpl.html
 		text-decoration: none
 	}	 
 	
-<<<<<<< HEAD
 	.subpage_title{
 		color:#fff;
 	}
@@ -84,8 +79,6 @@ License: GNU/GPL Version 2 or later. http://www.gnu.org/licenses/gpl.html
 		
 	}
 
-=======
->>>>>>> f0e61b6c3483785f0ae619e9e760ce5f92a9b80a
 	p { 
 		padding:0 0 1em;
 		margin:0;
