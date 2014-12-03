@@ -1,0 +1,20 @@
+/* Color 07 ==================================== */
+
+	body { 
+		background: #a7aa7f url(../../images/background_07.jpg) fixed center center;	
+		background-size: 100% 100%; 
+	}
+
+	a.btn, a.btn:visited, .form-row input.btn { 
+		border: solid 1px #9c9b78; 
+		background-color: #e0b880; 
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#e0b880), to(#b8935f));
+ 		background-image: -webkit-linear-gradient(top, #e0b880, #b8935f);
+ 		background-image: -moz-linear-gradient(top, #e0b880, #b8935f);
+ 		background-image: -ms-linear-gradient(top, #e0b880, #b8935f);
+ 		background-image: -o-linear-gradient(top, #e0b880, #b8935f); 
+	}
+	
+	a.btn:hover, .form-row input.btn:hover, .form-row input.btn:focus {
+		background:#a7aa7f;	
+	} 
