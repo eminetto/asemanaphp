@@ -1,0 +1,20 @@
+/* Color 02 ==================================== */
+
+	body { 
+		background: #852d39 url(../../images/background_02.jpg) fixed center center;	
+		background-size: 100% 100%; 
+	}
+
+	a.btn, a.btn:visited, .form-row input.btn { 
+		border: solid 1px #c7573b; 
+		background-color: #f29459; 
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#f29459), to(#c7573b));
+ 		background-image: -webkit-linear-gradient(top, #f29459, #c7573b);
+ 		background-image: -moz-linear-gradient(top, #f29459, #c7573b);
+ 		background-image: -ms-linear-gradient(top, #f29459, #c7573b);
+ 		background-image: -o-linear-gradient(top, #f29459, #c7573b); 
+	}
+	
+	a.btn:hover, .form-row input.btn:hover, .form-row input.btn:focus {
+		background:#c7573b;	
+	} 
