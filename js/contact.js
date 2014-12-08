@@ -15,11 +15,11 @@ $(function() {
         },
         messages: {
             name: {
-                required: "Please enter your name",
-                minlength: "Your name must consist of at least 2 characters"
+                required: "Por favor preencha seu nome",
+                minlength: "Seu nome deve possuir mais de 2 caracteres"
             },
             email: {
-                required: "Please enter your email address"
+                required: "Por favor preencha seu endereço de email"
             }
         },
         // submitHandler: function(form) {
@@ -58,11 +58,11 @@ $(function() {
         },
         messages: {
             name: {
-                required: "Please enter your name",
-                minlength: "Your name must consist of at least 2 characters"
+                required: "Por favor preencha com seu nome",
+                minlength: "Seu nome deve possuir mais de 2 caracteres"
             },
             email: {
-                required: "Please enter your email address"
+                required: "Por favor preencha com seu endereço de email"
             }
         },
         submitHandler: function(form) {
@@ -97,7 +97,7 @@ $(function() {
         },
         messages: {
             subscribe_email: {
-                required: "Please enter your email address"
+                required: "Por favor preencha com seu endereço de email"
             } 
         },
         submitHandler: function(form) {
