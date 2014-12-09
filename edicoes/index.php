@@ -1,3 +1,4 @@
+<?php include_once('index_action.php'); ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -51,13 +52,11 @@
 			<section>
 				<h3 class="subpage_title">Edições anteriores</h3>
 				<ul>
-					<li><a class="subpage_links" target="_blank" href="edicao1.html">Edição 1</a></li>
-					<li><a class="subpage_links" target="_blank" href="edicao2.html">Edição 2</a></li>
-					<li><a class="subpage_links" target="_blank" href="edicao3.html">Edição 3</a></li>
-					<li><a class="subpage_links" target="_blank" href="edicao4.html">Edição 4</a></li>
-					<li><a class="subpage_links" target="_blank" href="edicao5.html">Edição 5</a></li>
-					<li><a class="subpage_links" target="_blank" href="edicao6.html">Edição 6</a></li>
-					<li><a class="subpage_links" target="_blank" href="edicao7.html">Edição 7</a></li>
+				    <?php $i = 1; ?>
+					<?php foreach ($files as $file){ ?>
+							<li><a class="subpage_links" target="_blank" href="<?=$file?>">Edição <?=$i?></a></li>
+							<?php $i++; ?>
+					<?php } ?>
 				</ul>
 			</section>
 		</div>
