@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <?php
-
-require_once($_SERVER['DOCUMENT_ROOT'].'/DirectoryHandler.php');
-require_once($_SERVER['DOCUMENT_ROOT'].'/Acervo.php');
-require_once($_SERVER['DOCUMENT_ROOT'].'/Edicao.php');
-
+require_once($_SERVER['DOCUMENT_ROOT'] . '/DirectoryHandler.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/Acervo.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/Edicao.php');
 ?>
 
 <html>
@@ -21,9 +19,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/Edicao.php');
         <script type="text/javascript">stLight.options({publisher: "7a11cad4-3b7d-4eb1-b375-07425ea08200", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
     </head> 
     <body>
-        
+
         <div id="wrapper">
-            
+
             <nav>
                 <section>
                     <h2 class="menulink close"><a href="#">Close</a></h2>
@@ -60,13 +58,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/Edicao.php');
             <section>
                 <h3 class="subpage_title">Edições anteriores</h3>
                 <ul>
-                    <?php
-                    
-                    $edicoes = new Acervo(new DirectoryHandler('edicoes'));
-                    foreach ($edicoes->getEdicoes() as $edicao) {
-                        echo "<li><a class='subpage_links' target='_blank' href='{$edicao->getFile()}'>{$edicao->getName()}</a></li>";
-                    }
-                    ?>
+                    <?php $edicoes = new Acervo(new DirectoryHandler('edicoes')); ?>
+                    <?php foreach ($edicoes->getEdicoes() as $edicao): ?>
+                        <li><a class='subpage_links' target='_blank' href='/edicoes/<?php echo $edicao->getFile(); ?>'><?php echo $edicao->getName(); ?></a></li>
+                    <?php endforeach; ?>
                 </ul>
             </section>
         </div>
