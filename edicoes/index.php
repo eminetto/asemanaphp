@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'] . '/DirectoryHandler.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/Acervo.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/Edicao.php');
+require_once(__DIR__ . '/../DirectoryHandler.php');
+require_once(__DIR__ . '/../Acervo.php');
+require_once(__DIR__ . '/../Edicao.php');
 ?>
 
 <html>
