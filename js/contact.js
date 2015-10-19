@@ -1,25 +1,31 @@
-$(function() {
 	'use strict';
 
     // Signup form
     $('#signup').validate({
         rules: {
-            name: {
+            MERGE1: {
                 required: true,
                 minlength: 2
             },
-            email: {
+            MERGE2: {
+                required: true
+            },
+            MERGE0: {
                 required: true,
                 email: true
             }
         },
         messages: {
-            name: {
+            MERGE1: {
                 required: "Por favor preencha seu nome",
                 minlength: "Seu nome deve possuir mais de 2 caracteres"
             },
-            email: {
-                required: "Por favor preencha seu endereço de email"
+            MERGE2: {
+                required: "Por favor preencha seu sobrenome"
+            },
+            MERGE0: {
+                required: "Por favor preencha seu endereço de email",
+                email: "Seu endereço de email deve ser válido"
             }
         },
         // submitHandler: function(form) {
@@ -121,5 +127,3 @@ $(function() {
             });
         }
     });
-
-});
