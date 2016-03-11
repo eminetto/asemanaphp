@@ -18,7 +18,7 @@ jQuery(window).resize(function () {
 function resize_intro(){
     page_height =  jQuery(window).height();
     right_height = jQuery('.right section').height() + 40;
-    left_height = jQuery('.left section').height() + 40;
+    left_height = jQuery('.left section').height() + 300;
 
     if(left_height < page_height) {
 
